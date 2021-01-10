@@ -1,1 +1,1 @@
-web:gunicorn app:botApp
+heroku ps:scale web=1
